@@ -1,0 +1,22 @@
+{
+  "name": "reptile-tsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/reptile/crowller.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.30",
+    "@types/superagent": "^4.1.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "superagent": "^6.1.0"
+  }
+}
